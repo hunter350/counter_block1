@@ -29,7 +29,7 @@ class CounterPage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children:[
+          children: [
             CounterText(),
             RaisedButton(
               child: const Text(
@@ -48,7 +48,6 @@ class CounterPage extends StatelessWidget {
                 borderRadius: new BorderRadius.circular(30.0),
               ),
               elevation: 8.0,
-
             ),
             RaisedButton(
               child: const Text(
@@ -67,7 +66,6 @@ class CounterPage extends StatelessWidget {
                 borderRadius: new BorderRadius.circular(30.0),
               ),
               elevation: 8.0,
-
             ),
           ],
         ),
@@ -93,7 +91,6 @@ class CounterPage extends StatelessWidget {
               child: Icon(Icons.remove),
               onPressed: () {
                 counterBloc.add(CounterEvent.decrement);
-
               },
             ),
           ),
@@ -102,5 +99,3 @@ class CounterPage extends StatelessWidget {
     );
   }
 }
-
-

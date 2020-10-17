@@ -7,8 +7,10 @@ class CounterText extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<CounterBloc, int>(
       builder: (context, count) {
-        return Text('$count',
-          style: TextStyle(fontSize: 50),);
+        return Text(
+          '$count',
+          style: TextStyle(fontSize: 50),
+        );
       },
     );
   }

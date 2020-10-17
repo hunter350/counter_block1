@@ -14,7 +14,7 @@ class ThreeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children:[
+          children: [
             CounterText(),
             RaisedButton(
               child: const Text(
@@ -33,7 +33,6 @@ class ThreeScreen extends StatelessWidget {
                 borderRadius: new BorderRadius.circular(30.0),
               ),
               elevation: 8.0,
-
             ),
             RaisedButton(
               child: const Text(
@@ -41,7 +40,6 @@ class ThreeScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 30),
               ),
               onPressed: () {
-
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SecondScreen()),
@@ -53,7 +51,6 @@ class ThreeScreen extends StatelessWidget {
                 borderRadius: new BorderRadius.circular(30.0),
               ),
               elevation: 8.0,
-
             ),
           ],
         ),
@@ -87,5 +84,3 @@ class ThreeScreen extends StatelessWidget {
     );
   }
 }
-
-

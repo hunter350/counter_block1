@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'CounterText.dart';
@@ -15,7 +14,7 @@ class SecondScreen extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children:[
+          children: [
             CounterText(),
             RaisedButton(
               child: const Text(
@@ -23,7 +22,6 @@ class SecondScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 30),
               ),
               onPressed: () {
-
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => CounterPage()),
@@ -35,7 +33,6 @@ class SecondScreen extends StatelessWidget {
                 borderRadius: new BorderRadius.circular(30.0),
               ),
               elevation: 8.0,
-
             ),
             RaisedButton(
               child: const Text(
@@ -54,7 +51,6 @@ class SecondScreen extends StatelessWidget {
                 borderRadius: new BorderRadius.circular(30.0),
               ),
               elevation: 8.0,
-
             ),
           ],
         ),
@@ -88,5 +84,3 @@ class SecondScreen extends StatelessWidget {
     );
   }
 }
-
-

@@ -6,6 +6,7 @@ import 'ThreeScreen.dart';
 import 'block.dart';
 
 void main() => runApp(App());
+//Третий вариант хранения стейта(scoped_model, provider, block)
 
 class App extends StatelessWidget {
   @override

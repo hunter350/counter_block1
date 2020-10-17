@@ -1,6 +1,6 @@
 # counterblock1
 
-A new Flutter application.
+Приложение с block и flutter_ block package на три экрана с передачей сосотояния счетчика между ними.
 
 ## Getting Started
 

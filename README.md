@@ -1,6 +1,6 @@
 # counterblock1
 
-Приложение с block и flutter_ block package на три экрана с передачей сосотояния счетчика между ними.
+Приложение с block и flutter_ block package на три экрана с передачей состояния счетчика между ними.
 
 ## Getting Started
 
